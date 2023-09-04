@@ -1,0 +1,176 @@
+:root {
+    --c-brand: #4D5AE5;
+    --c-pressed-state: #404BBF;
+    --c-hero-bcg: #2E2F42;
+    --c-success: #31D0AA;
+    --c-text: #434455;
+    --c-subtle-text:#8E8F99;
+    --c-bcg-wite: #FFF;
+    --c-accent:#E7E9FC;
+    --c-light:#F4F4FD;
+    --c-overlay:#2E2F4266;
+    --c-modal-bcg:#FCFCFC;
+}
+    
+body {
+    color: var(--c-text);
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--c-bcg-wite);
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    color: var(--c-brand);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-accent {
+    color: var(--c-hero-bcg);
+}
+
+.nav-link {
+    color: var(--c-hero-bcg);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover{
+    color: var(--c-pressed-state);
+}
+
+.nav-link:focus {
+    color: var(--c-pressed-state);
+    background-color: var(--c-bcg-wite);
+}
+
+.contact {
+    font-style: normal;
+}
+
+.mail-phone {
+    color: var(--c-text);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.mail-phone:hover {
+    color:var(--c-pressed-state);
+}
+
+.mail-phone:focus {
+    color: var(--c-pressed-state);
+    background-color: var(--c-bcg-wite);
+}
+
+.hero-section {
+    background-color: var(--c-hero-bcg);
+}
+
+.hero-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-button {
+color: #FFF;
+background-color: var(--c-brand);
+cursor: pointer;
+border: none;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+
+.hero-button:hover, :focus {
+    background-color: var(--c-pressed-state);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.feature-title {
+    color: var(--c-hero-bcg);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.feature-text {
+    color: var(--c-text);
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-section {
+    background-color: var(--c-light);color: var(--c-hero-bcg);
+}
+
+.photo-employees {
+    background-color: var(--c-bcg-wite);
+}
+
+.team-title {
+    color: var(--c-hero-bcg);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.footer {
+    background-color: var(--c-hero-bcg);
+}
+
+.footer-logo {
+    color: var(--c-brand);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo-accent {
+    color: var(--c-light);
+}
+
+.footer-text {
+    color: var(--c-light);
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
