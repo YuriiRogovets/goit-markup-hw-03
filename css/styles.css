@@ -25,9 +25,39 @@ a {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;   
+}
+
+/* Header */
+
+.header-nav {
+    display: flex;
+    justify-content:space-between;
+    gap: 76px;
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     color: var(--c-brand);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -41,14 +71,23 @@ ul {
     color: var(--c-hero-bcg);
 }
 
+.nav-list {
+    display: flex;
+    gap: 40px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
 .nav-link {
+    display: inline-block;
     color: var(--c-hero-bcg);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: var(--c-pressed-state);
 }
 
@@ -57,14 +96,26 @@ ul {
     background-color: var(--c-bcg-wite);
 }
 
+.header-contact {
+    display: flex;
+}
+
 .contact {
     font-style: normal;
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+   
 }
 
 .mail-phone {
     color: var(--c-text);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .mail-phone:hover {
