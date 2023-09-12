@@ -135,7 +135,7 @@ header {
     background-color: var(--c-bcg-wite);
 }
  
-/*<  Hero section */
+/* Hero section */
 
 .hero-section {
     background-color: var(--c-hero-bcg);
@@ -171,6 +171,7 @@ padding: 16px 32px;
     background-color: var(--c-pressed-state);
 }
 
+/*feature-section*/
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -184,12 +185,25 @@ padding: 16px 32px;
     overflow: hidden;
 }
 
+.feature-section {
+    padding: 120px 156px;
+}
+
+.feature-list {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    
+}
+
 .feature-title {
+    width: 264px;
     color: var(--c-hero-bcg);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .feature-text {
