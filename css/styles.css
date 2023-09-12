@@ -40,14 +40,21 @@ h6 {
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;   
 }
 
 /* Header */
+header {
+    border-bottom: 1px solid var(--c-accent);
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+        
+}
 
 .header-nav {
     display: flex;
@@ -102,6 +109,7 @@ h6 {
 
 .contact {
     font-style: normal;
+    padding: 24px 0;
 }
 
 .contact-list {
@@ -126,28 +134,37 @@ h6 {
     color: var(--c-pressed-state);
     background-color: var(--c-bcg-wite);
 }
+ 
+/*<  Hero section */
 
 .hero-section {
     background-color: var(--c-hero-bcg);
+    padding: 188px 0;
 }
 
 .hero-title {
+    margin: 0 auto 48px;
+    max-width: 496px;
     color: #FFF;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-}
+    }
 
 .hero-button {
+display: block;
+margin: 0 auto;
 color: #FFF;
 background-color: var(--c-brand);
 cursor: pointer;
 border: none;
+border-radius: 4px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
+padding: 16px 32px;
 }
 
 .hero-button:hover, :focus {
