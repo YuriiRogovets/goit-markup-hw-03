@@ -154,17 +154,17 @@ header {
     }
 
 .hero-button {
-display: block;
-margin: 0 auto;
-color: #FFF;
-background-color: var(--c-brand);
-cursor: pointer;
-border: none;
-border-radius: 4px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em;
-padding: 16px 32px;
+    display: block;
+    margin: 0 auto;
+    color: #FFF;
+    background-color: var(--c-brand);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
 }
 
 .hero-button:hover, :focus {
@@ -185,15 +185,13 @@ padding: 16px 32px;
     overflow: hidden;
 }
 
-.feature-section {
+.section {
     padding: 120px 156px;
 }
 
 .feature-list {
     display: flex;
-    gap: 24px;
-    justify-content: space-between;
-    
+    gap: 24px;   
 }
 
 .feature-title {
@@ -217,10 +215,6 @@ padding: 16px 32px;
     background-color: var(--c-light);color: var(--c-hero-bcg);
 }
 
-.photo-employees {
-    background-color: var(--c-bcg-wite);
-}
-
 .team-title {
     color: var(--c-hero-bcg);
     text-align: center;
@@ -229,6 +223,49 @@ padding: 16px 32px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.card-employees {
+    width: 264px;
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--c-bcg-wite1);
+    }
+
+.team-subtitle {
+    margin: 32px auto 8px;
+}
+
+.team-text {
+    color: var(--c-text);
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*portfolio-section*/
+.portfolio-title {
+}
+
+.portfolio-list {
+    width: calc((100%-72)/3);
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.portfolio-subtitle {
+    margin-top: 32;
+    margin-bottom: 8px;
+}
+
+.portfolio-text {
+    margin-bottom: 32px;
 }
 
 .footer {
