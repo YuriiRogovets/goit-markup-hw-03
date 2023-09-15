@@ -39,6 +39,10 @@ h6 {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 .container {
     max-width: 1158px;
     margin: 0 auto;
@@ -46,7 +50,7 @@ h6 {
 }
 
 /* Header */
-header {
+.header {
     border-bottom: 1px solid var(--c-accent);
 }
 
@@ -59,12 +63,13 @@ header {
 .header-nav {
     display: flex;
     justify-content:space-between;
-    gap: 76px;
+    align-items: center;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    margin-right: 76px;
     color: var(--c-brand);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -155,6 +160,7 @@ header {
 
 .hero-button {
     display: block;
+    min-width: 169px;
     margin: 0 auto;
     color: #FFF;
     background-color: var(--c-brand);
@@ -186,7 +192,7 @@ header {
 }
 
 .section {
-    padding: 120px 156px;
+    padding: 120px 0;
 }
 
 .feature-list {
