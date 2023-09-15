@@ -249,14 +249,19 @@ header {
     letter-spacing: 0.02em;
 }
 /*portfolio-section*/
-.portfolio-title {
-}
 
 .portfolio-list {
     width: calc((100%-72)/3);
     display: flex;
-    gap: 24px;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-description {
+border: 1px solid var(--c-accent);
+border-top:none ;
+
 }
 
 .portfolio-subtitle {
@@ -269,6 +274,7 @@ header {
 }
 
 .footer {
+    padding: 100px 156px;
     background-color: var(--c-hero-bcg);
 }
 
@@ -287,6 +293,8 @@ header {
 }
 
 .footer-text {
+    margin-top: 18px;
+    width: 264px;
     color: var(--c-light);
     font-weight: 400;
     line-height: 1.5;
