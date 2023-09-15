@@ -57,6 +57,7 @@ img {
 
 .header-inner {
     display: flex;
+    align-items: center;
     justify-content: space-between;
         
 }
@@ -199,6 +200,10 @@ img {
 .feature-list {
     display: flex;
     gap: 24px;   
+}
+
+.feature-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .feature-title {
