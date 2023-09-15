@@ -54,6 +54,7 @@ img {
     border-bottom: 1px solid var(--c-accent);
 }
 
+
 .header-inner {
     display: flex;
     justify-content: space-between;
@@ -108,9 +109,9 @@ img {
     background-color: var(--c-bcg-wite);
 }
 
-.header-contact {
+/*.header-contact {
     display: flex;
-}
+}*/
 
 .contact {
     font-style: normal;
